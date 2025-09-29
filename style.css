@@ -1,0 +1,85 @@
+
+/* Sfondo con immagine JPG */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(imm/sfondo-di-carta-da-parati-colorato-sfocato-artistico.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 10px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contenitore dei bottoni principali (in fondo alla pagina) */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+/* Stile dei bottoni */
+.button-container a {
+    flex: 1; 
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgba(0, 119, 204, 0.9);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 30px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-container a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: scale(1.05);
+}
+
+/* Bottone group projects */
+.project-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 40px auto;
+    padding: 15px 30px;
+    background-color: rgba(255, 165, 0, 0.9);
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.project-button:hover {
+    background-color: rgba(255, 140, 0, 0.9);
+    transform: scale(1.1);
+}
